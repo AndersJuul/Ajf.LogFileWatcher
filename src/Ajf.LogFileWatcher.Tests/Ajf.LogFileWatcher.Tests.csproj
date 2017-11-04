@@ -7,8 +7,8 @@
     <ProjectGuid>{CD483CC0-4938-4C1B-814F-ABCA18661A29}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LogFileWatcher.Tests</RootNamespace>
-    <AssemblyName>LogFileWatcher.Tests</AssemblyName>
+    <RootNamespace>Ajf.LogFileWatcher.Tests</RootNamespace>
+    <AssemblyName>Ajf.LogFileWatcher.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
