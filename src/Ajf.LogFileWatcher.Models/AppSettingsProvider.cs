@@ -14,14 +14,13 @@ namespace LogFileWatcher.Service
                 DisplayName = ConfigurationManager.AppSettings["DisplayName"],
                 ServiceName = ConfigurationManager.AppSettings["ServiceName"],
                 TickSleep = Convert.ToInt32(ConfigurationManager.AppSettings["TickSleep"]),
-                MonitoringTargets = GetMonitoringTargets()
+                MonitoringTargets = GetMonitoringTargets(ConfigurationManager.AppSettings["MonitoringTargets"])
             };
         }
 
-        private IEnumerable<IMonitoringTarget> GetMonitoringTargets()
+        public IEnumerable<IMonitoringTarget> GetMonitoringTargets(string monitoringTargets)
         {
-            var appSetting = ConfigurationManager.AppSettings["MonitoringTargets"];
-            var targetsAsStrings = appSetting.Split('|');
+            var targetsAsStrings = monitoringTargets.Split('|');
 
             var result = new List<IMonitoringTarget>();
             foreach (var targetsAsString in targetsAsStrings)

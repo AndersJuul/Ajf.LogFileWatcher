@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ajf.LogFileWatcher.Models\Ajf.LogFileWatcher.Models.csproj">
+      <Project>{56A5C031-78D3-4F88-92E3-0B7122F0415E}</Project>
+      <Name>Ajf.LogFileWatcher.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
