@@ -1,7 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 
-namespace LogFileWatcher.Models
+namespace Ajf.LogFileWatcher.Models
 {
     public interface IAppSettings
     {

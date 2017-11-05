@@ -1,6 +1,6 @@
 using System;
 
-namespace LogFileWatcher.Models
+namespace Ajf.LogFileWatcher.Models
 {
     public class MonitoringTarget : IMonitoringTarget
     {

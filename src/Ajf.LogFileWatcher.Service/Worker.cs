@@ -2,10 +2,10 @@
 using System.ComponentModel;
 using System.IO;
 using System.Threading;
-using LogFileWatcher.Models;
+using Ajf.LogFileWatcher.Models;
 using Serilog;
 
-namespace LogFileWatcher.Service
+namespace Ajf.LogFileWatcher.Service
 {
     public class Worker
     {

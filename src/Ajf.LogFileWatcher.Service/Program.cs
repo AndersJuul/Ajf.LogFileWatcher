@@ -1,9 +1,9 @@
 ﻿using System;
-using LogFileWatcher.Models;
+using Ajf.LogFileWatcher.Models;
 using Serilog;
 using Topshelf;
 
-namespace LogFileWatcher.Service
+namespace Ajf.LogFileWatcher.Service
 {
     internal class Program
     {

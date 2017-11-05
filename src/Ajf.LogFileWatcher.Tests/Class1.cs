@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using LogFileWatcher.Service;
+using Ajf.LogFileWatcher.Models;
 using NUnit.Framework;
 
 namespace Ajf.LogFileWatcher.Tests
